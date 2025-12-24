@@ -1,0 +1,33 @@
+{
+  "name": "angular-func-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ng-func-cli": "dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@angular/common": "^20.3.9",
+    "@angular/core": "^20.3.9",
+    "@types/node": "^24.9.2",
+    "axios": "^1.13.1",
+    "commander": "^14.0.2",
+    "rxjs": "^7.8.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.2.0",
+    "jest-environment-jsdom": "^30.2.0",
+    "jest-preset-angular": "^15.0.3",
+    "ts-jest": "^29.4.5"
+  }
+}
